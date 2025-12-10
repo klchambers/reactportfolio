@@ -4,7 +4,7 @@ export default function Contact() {
             <div className="col-md-8 col-lg-6">
                 <p className="display-6">Send me a message! <span className="speech-bubble">&#128172;</span></p>
                 <form
-                    action={import.meta.env.FORMSPREE_URL}
+                    action={import.meta.env.VITE_FORMSPREE_URL}
                     method="POST"
                     className="form-container contact-form d-flex flex-column align-items-center"
                 >
