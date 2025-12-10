@@ -110,6 +110,50 @@ p {
   width: 70%;
 }
 
+/* Contact form tweaks - align labels and inputs to match site styles */
+.contact-form {
+  max-width: 720px;
+  width: 100%;
+  padding: 10px 8px;
+  margin-top: 10px;
+}
+
+.contact-form .form-label {
+  width: 140px;
+  margin-right: 10px;
+  text-align: right;
+  color: #fafafa;
+}
+
+.contact-form .form-control {
+  width: calc(100% - 160px);
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #1e1f22;
+}
+
+@media (max-width: 768px) {
+  .contact-form .w-100.d-flex {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact-form .form-label {
+    width: auto;
+    text-align: left;
+    margin-bottom: 6px;
+  }
+
+  .contact-form .form-control {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #submit-button {
+    width: 60%;
+  }
+}
+
 .list-item {
   font-size: 1rem;
   transition: all 0.2s ease-in-out;
