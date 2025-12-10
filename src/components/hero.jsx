@@ -7,6 +7,9 @@ export default function Hero() {
                 style={{paddingBottom: '25px'}} />
                             <p className="display-3">Hello!<span className="wave">👋</span></p>
             <p className="display-6">I'm <strong>Kieran</strong></p>
+            <p className="lead mb-5">
+                Full Stack Developer building modern web applications with a focus on clean code and user experience.
+          </p>
         </div>
         </div>
     )

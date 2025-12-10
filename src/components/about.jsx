@@ -9,9 +9,6 @@ export default function About() {
       <div className="row justify-content-center">
         <div className="col-lg-8 text-center">
           <h2 className="mb-4">About Me</h2>
-          <p className="lead mb-5">
-            Full Stack Developer building modern web applications with a focus on clean code and user experience.
-          </p>
 
           {/* Skills cards */}
           <div className="row g-4 mb-5">
