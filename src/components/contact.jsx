@@ -4,7 +4,7 @@ export default function Contact() {
             <div className="col-md-8 col-lg-6">
                 <p className="display-6">Send me a message! &#128172;</p>
                 <form
-                    action="https://formspree.io/f/xeoyrrjn"
+                    action={import.meta.env.VITE_FORMSPREE_URL}
                     method="POST"
                     className="form-container contact-form d-flex flex-column align-items-center"
                 >
