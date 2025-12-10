@@ -51,7 +51,7 @@ export const ProjectData = [{
     {
         name:'VinVivant Blog',
         technologiesUsed: 'HTML, CSS, GitHub Pages',
-        image: 'images/quizzit-screencap.png',
+        image: 'images/vinvivant-screencap.png',
         alt: 'Quizz App Screen Capture',
         repo: 'https://github.com/klchambers/VinVivant',
         live: 'https://klchambers.github.io/VinVivant/',
