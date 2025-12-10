@@ -1,6 +1,6 @@
 export const ProjectData = [{
         name:'GlouGlou Natural Wine Store',
-        technologiesUsed: 'Django, Bootstrap, Cloudinary, Heroku',
+        technologies_used: 'Django, Bootstrap, Cloudinary, Heroku',
         image: 'images/glouglou-screencap.png',
         alt: 'GlouGlou Screen Capture',
         repo: 'https://github.com/klchambers/pp5ecommerce',
@@ -25,7 +25,7 @@ export const ProjectData = [{
             'Authenticated users can also post comments on recipes to share their thoughts and feedback to the poster and others, these comments also require admin approval before they are published.']},
     { 
         name:'To Do List',
-        technologiesUsed: 'Python, Google Sheets API',
+        technologies_used: 'Python, Google Sheets API',
         image: 'images/todolist-screencap.png',
         alt: 'To Do List Screen Capture',
         repo: 'https://github.com/klchambers/todo-list',
@@ -38,7 +38,7 @@ export const ProjectData = [{
         
     {
         name:'Quizzit',
-        technologiesUsed: 'JavaScript, HTML, CSS',
+        technologies_used: 'JavaScript, HTML, CSS',
         image: 'images/quizzit-screencap.png',
         alt: 'Quizz App Screen Capture',
         repo: 'https://github.com/klchambers/quiz-app',
@@ -50,7 +50,7 @@ export const ProjectData = [{
 
     {
         name:'VinVivant Blog',
-        technologiesUsed: 'HTML, CSS, GitHub Pages',
+        technologies_used: 'HTML, CSS, GitHub Pages',
         image: 'images/vinvivant-screencap.png',
         alt: 'Quizz App Screen Capture',
         repo: 'https://github.com/klchambers/VinVivant',
@@ -61,32 +61,33 @@ export const ProjectData = [{
         ]
 
 export default function ProjectCard({ project }) {
-    const { name, technologiesUsed, image, alt, repo, live, reverse, description } = project
+    const { name, technologies_used, image, alt, repo, live, reverse, description } = project
 
         return(
             <div className="card bg-dark portfolio-card">
-                <div className={`card-content d-lg-flex ${project.reverse ? "flex-row-reverse" : ""}`}>
+                <div className={`card-content d-lg-flex ${reverse ? "flex-row-reverse" : ""}`}>
                 <img
                     className="card-img-top portfolio-image"
                     src={image}
                     alt={alt}
                     />
+                {/* Overlay div for image effects expand on hover */}
                 <div className="overlay"></div>
 
                 <div className="card-body">
-                    <p className="h4 text-white">{project.name}</p>
-                    <p className="h6 text-white"><em>{project.technologiesUsed}</em></p>
+                    <p className="h4 text-white">{name}</p>
+                    <p className="h6 text-white"><em>{technologies_used}</em></p>
 
-                    <a href={project.repo} target="_blank" rel="noopener noreferrer">
+                    <a href={repo} target="_blank" rel="noopener noreferrer">
                         GitHub Repository
                     </a><br />
-                    <a href={project.live} target="_blank" rel="noopener noreferrer">
+                    <a href={live} target="_blank" rel="noopener noreferrer">
                         Live Site
                     </a>
 
                     <hr />
                     <div>
-                        {project.description.map((p, idx) => <p key={idx}>{p}</p>)}
+                        {description.map((p, idx) => <p key={idx}>{p}</p>)}
                     </div>
                     </div>
                 </div>
