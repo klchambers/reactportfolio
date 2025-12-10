@@ -13,7 +13,7 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-md-0 justify-content-center text-center">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a className="nav-link active" aria-current="page" href="#top">Home</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#about">About</a>

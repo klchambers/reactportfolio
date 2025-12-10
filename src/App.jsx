@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      <a id="top"></a>
       <Navbar />
       <div className="page-content">
         <Hero />

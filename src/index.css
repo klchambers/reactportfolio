@@ -2,7 +2,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  padding-top: 120px;
   height: 100%;
   color: #fafafa;
   background-color: #212529;
@@ -30,21 +29,6 @@ a:hover {
 
 p {
   color: #fafafa;
-}
-
-.alert {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1050;
-  width: 100%;
-  max-width: 600px;
-  margin-top: 10px;
-}
-
-.message-container {
-  position: relative; /* Ensures container doesn’t interfere with fixed positioning */
 }
 
 .btn-primary {
