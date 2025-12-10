@@ -11,8 +11,8 @@ export default function Projects() {
                                     src='images/glouglou-screencap.png' alt="GlouGlou Screen Capture" />
                                 <div className="overlay"></div>
                                 <div className="card-body">
-                                    <p className="h4">GlouGlou Natural Wine Store</p>
-                                    <p className="h6"><em>Django, Bootstrap, Cloudinary, Heroku</em></p>
+                                    <p className="h4 text-white">GlouGlou Natural Wine Store</p>
+                                    <p className="h6 text-white"><em>Django, Bootstrap, Cloudinary, Heroku</em></p>
                                     <a href="https://github.com/klchambers/pp5ecommerce" style={{fontSize: 'larger'}}
                                         target="_blank" rel="noopener noreferrer">GitHub Repository</a><br />
                                     <a href="https://pp5ecommerce-a72d5065ca06.herokuapp.com/"
@@ -61,8 +61,8 @@ export default function Projects() {
                                     style={{justifySelf: 'flex-end'}} />
                                 <div className="overlay"></div>
                                 <div className="card-body">
-                                    <p className="h4">RecipeMe: Recipe Sharing App</p>
-                                    <p className="h6"><em>Django, Bootstrap, Cloudinary, Heroku</em></p>
+                                    <p className="h4 text-white">RecipeMe: Recipe Sharing App</p>
+                                    <p className="h6 text-white"><em>Django, Bootstrap, Cloudinary, Heroku</em></p>
                                     <a href="https://github.com/klchambers/pp4" style={{fontSize: 'larger'}}
                                         target="_blank" rel="noopener noreferrer">GitHub Repository</a><br />
                                     <a href="https://pp4assignment-81282f23e92d.herokuapp.com/"
@@ -95,8 +95,8 @@ export default function Projects() {
                                     src='images/todolist-screencap.png' alt="To Do List Screen Capture" />
                                 <div className="overlay"></div>
                                 <div className="card-body">
-                                    <p className="h4">To Do List</p>
-                                    <p className="h6"><em>Python, Google Sheets API</em></p>
+                                    <p className="h4 text-white">To Do List</p>
+                                    <p className="h6 text-white"><em>Python, Google Sheets API</em></p>
                                     <a href="https://github.com/klchambers/todo-list" style={{fontSize: 'larger'}}
                                         target="_blank" rel="noopener noreferrer">GitHub Repository</a><br />
                                     <a href="https://pp3todoapp-ab2e466bceb0.herokuapp.com/" style={{fontSize: 'larger'}} 
@@ -126,8 +126,8 @@ export default function Projects() {
                                     style={{justifySelf: 'flex-end'}} />
                                 <div className="overlay"></div>
                                 <div className="card-body">
-                                    <p className="h4">Quizzit</p>
-                                    <p className="h6"><em>JavaScript, HTML, CSS</em></p>
+                                    <p className="h4 text-white">Quizzit</p>
+                                    <p className="h6 text-white"><em>JavaScript, HTML, CSS</em></p>
                                     <a href="https://github.com/klchambers/quiz-app" style={{fontSize: 'larger'}}
                                         target="_blank" rel="noopener noreferrer">GitHub Repository</a><br />
                                     <a href="https://klchambers.github.io/quiz-app/" style={{fontSize: 'larger'}}
@@ -155,8 +155,8 @@ export default function Projects() {
                                     src='images/vinvivant-screencap.png' alt="Card image cap" />
                                 <div className="overlay"></div>
                                 <div className="card-body">
-                                    <p className="h4">VinVivant Blog</p>
-                                    <p className="h6"><em>HTML, CSS, GitHub Pages</em></p>
+                                    <p className="h4 text-white">VinVivant Blog</p>
+                                    <p className="h6 text-white"><em>HTML, CSS, GitHub Pages</em></p>
                                     <a href="https://github.com/klchambers/VinVivant" style={{fontSize: 'larger'}}
                                         target="_blank" rel="noopener noreferrer">GitHub Repository</a><br />
                                     <a href="https://klchambers.github.io/VinVivant/" style={{fontSize: 'larger'}}
