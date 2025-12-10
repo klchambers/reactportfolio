@@ -5,7 +5,7 @@ export default function Hero() {
 
             <img id="profile-photo" src="/images/me.jpeg" alt="A photo of me"
                 style={{paddingBottom: '25px'}} />
-                            <p className="display-3">Hello!👋</p>
+                            <p className="display-3">Hello!<span className="wave">👋</span></p>
             <p className="display-6">I'm <strong>Kieran</strong></p>
         </div>
         </div>

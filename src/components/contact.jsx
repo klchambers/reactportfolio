@@ -2,7 +2,7 @@ export default function Contact() {
     return(
         <div className="row justify-content-center text-center mt-3" id="contact">
             <div className="col-md-8 col-lg-6">
-                <p className="display-6">Send me a message! &#128172;</p>
+                <p className="display-6">Send me a message! <span className="speech-bubble">&#128172;</span></p>
                 <form
                     action={import.meta.env.VITE_FORMSPREE_URL}
                     method="POST"
