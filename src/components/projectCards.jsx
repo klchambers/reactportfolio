@@ -8,7 +8,7 @@ export const ProjectData = [{
         reverse: false,
         description: ['A mobile-first e-commerce platform for an online wine retailer focusing on biodynamic and minimal intervention wines.',
             'The site integrates Mailchimp for newsletter signup and uses the Stripe API for secure payments.',
-            'User authentication is handled via AllAuth, providing access to features such as admin Q&A submissions and saved payment information.',
+            'User authentication is handled via AllAuth, providing access to features such as user Q&A submissions and saved payment information.',
             'Also includes a blog and FAQ system with admin-published answers.']},
       { 
         name:'RecipeMe: Recipe Sharing App',
@@ -18,10 +18,8 @@ export const ProjectData = [{
         repo: 'https://github.com/klchambers/pp4',
         live: 'https://pp4assignment-81282f23e92d.herokuapp.com/',
         reverse: true,
-        description: ['RecipeMe is a social recipe platform that allows users to share and discover recipes.',
-            'User authentication, registration, and management is achieved using Django AllAuth.',
-            'Once registered and logged in, users can submit recipes, which must be approved by an administrator to prevent spam and maintain content quality.',
-            'Each recipe includes ingredients, cooking time, and an image.',
+        description: ['RecipeMe is a social recipe platform that allows users to share and discover recipes. Each recipe includes ingredients, cooking time, and an image.',
+            'User authentication, registration, and management is achieved using Django AllAuth. Once registered and logged in, users can submit recipes, which must be approved by an administrator to prevent spam and maintain content quality.',
             'Authenticated users can also post comments on recipes to share their thoughts and feedback to the poster and others, these comments also require admin approval before they are published.']},
     { 
         name:'To Do List',
