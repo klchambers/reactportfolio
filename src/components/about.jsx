@@ -1,7 +1,7 @@
 export default function About() {
   const skills = {
     frontend: ['HTML/CSS', 'JavaScript', 'React', 'Bootstrap/Tailwind'],
-    backend: ['Python', 'Django', 'PostgreSQL', 'REST APIs'],
+    backend: ['Python', 'Django', 'Flask', 'PostgreSQL', 'REST APIs'],
   };
 
   return (
@@ -17,7 +17,7 @@ export default function About() {
                 <h5 className="mb-3">Frontend</h5>
                 <div className="d-flex flex-wrap justify-content-center gap-2">
                   {skills.frontend.map(skill => (
-                    <span key={skill} className="badge bg-primary px-3 py-2">
+                    <span key={skill} className="badge bg-primary px-3 py-2 wiggle">
                       {skill}
                     </span>
                   ))}
@@ -30,7 +30,7 @@ export default function About() {
                 <h5 className="mb-3">Backend</h5>
                 <div className="d-flex flex-wrap justify-content-center gap-2">
                   {skills.backend.map(skill => (
-                    <span key={skill} className="badge bg-success px-3 py-2">
+                    <span key={skill} className="badge bg-success px-3 py-2 wiggle">
                       {skill}
                     </span>
                   ))}
